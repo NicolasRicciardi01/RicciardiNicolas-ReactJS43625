@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
@@ -6,27 +7,33 @@ const NavBar = () => {
         <header>
             <nav className="navbar navbar-expand-lg bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand mx-2" href="#"><img src="images/ss.png" alt="" width="88" /></a>
+                    <Link className="navbar-brand mx-2" to={"/"} ><img src="images/ss.png" alt="" width="88" /></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    <Link className="nav-link active" aria-current="page" to={"/"}>Inicio</Link>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link active" href="#">Servicios</a>
+                                    <Link className="nav-link active" to={"/categoria/servicio"}>Servicios</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Productos
-                                </a>
+                                    </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Zapatillas</a></li>
-                                    <li><a className="dropdown-item" href="#">Productos de limpieza</a></li>
+                                    <li>
+                                        <NavLink className="dropdown-item" to={"/categoria/zapatillas"}>Zapatillas</NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="dropdown-item" to={"/categoria/limpieza"}>Productos de limpieza</NavLink>
+                                    </li>
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Otros</a></li>
+                                    <li>
+                                        <NavLink className="dropdown-item" href="#">Otros</NavLink>
+                                    </li>
                                 </ul>
                                 </li>
                                 <li className="nav-item">

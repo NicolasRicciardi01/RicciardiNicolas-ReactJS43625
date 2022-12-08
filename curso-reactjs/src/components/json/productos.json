@@ -1,0 +1,83 @@
+[
+    {
+        "id":1, 
+        "nombre":"Zapatillas Nike", 
+        "descripcion":"Las últimas zapatillas Nike del mercado", 
+        "img":"https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5d2cf9e4/products/NI_DC3728-003/NI_DC3728-003-1.JPG", 
+        "precio":15000, 
+        "stock":10, 
+        "categoria":"zapatillas"
+    },
+    {
+        "id":2,
+        "nombre":"Zapatillas Adidas",
+        "descripcion":"Las últimas zapatillas Adidas del mercado", 
+        "img":"https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw5b176e9c/products/AD_GW2990/AD_GW2990-1.JPG",
+        "precio":12000, 
+        "stock":10, 
+        "categoria":"zapatillas"
+    },
+    {
+        "id":3, 
+        "nombre":"Zapatillas Under Armour", 
+        "descripcion":"Las últimas zapatillas Under Armour del mercadoesc", 
+        "img":"https://redsport.vteximg.com.br/arquivos/ids/1042683-1000-1000/GA221000363.jpg?v=637311990449700000", 
+        "precio":16000, 
+        "stock":10, 
+        "categoria":"zapatillas"
+    },
+    {
+        "id":4, 
+        "nombre":"Cepillo",
+        "descripcion":"Un cepillo con finas cerdas para no dañar tus zapas", 
+        "img":"https://images.philips.com/is/image/philipsconsumer/e3c70cbcd2794db59d0fad1500b60f8b?wid=420&hei=360&$jpglarge$", 
+        "precio":4000, 
+        "stock":10, 
+        "categoria":"limpieza"
+    },
+    {
+        "id":5, 
+        "nombre":"Crema limpiadora", 
+        "descripcion":"Una receta propia de la empresa, pensada para sacar cualquier mancha sin dañar tu producto", 
+        "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1649267887-21YaDCEIWL._SL500_.jpg", 
+        "precio":1000, 
+        "stock":10, 
+        "categoria":"limpieza"
+    },
+    {
+        "id":6, 
+        "nombre":"Franela", 
+        "descripcion":"Franela de paño ultra fino", 
+        "img":"https://cleanmarket.com.ar/wp-content/uploads/2020/03/franela-alpargatas-35-x-45-cm-D_NQ_NP_618365-MLA31576392398_072019-F.jpg", 
+        "precio":300, 
+        "stock":10, 
+        "categoria":"limpieza"
+    },
+    {
+        "id":7, 
+        "nombre":"Servicio GOLD", 
+        "descripcion":"Servicio de limpieza de zapatillas, donde te las dejamos como nuevas", 
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Vpvkah8vg-HiWZBYvYukXNSU_h9uKaMWjw&usqp=CAU", 
+        "precio":2000, 
+        "stock":10, 
+        "categoria":"servicio"
+    },
+    {
+        "id":8, 
+        "nombre":"Servicio PLATINUM", 
+        "descripcion":"Un paso más en el servicio de limpieza + cordones de regalo", 
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Vpvkah8vg-HiWZBYvYukXNSU_h9uKaMWjw&usqp=CAU", 
+        "precio":3000, 
+        "stock":10, 
+        "categoria":"servicio"
+    },
+    {
+        "id":9, 
+        "nombre":"Servicio DIAMOND", 
+        "descripcion":"Una limpieza a fondo de tus zapatillas, te van a quedar como nuevas!", 
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Vpvkah8vg-HiWZBYvYukXNSU_h9uKaMWjw&usqp=CAU", 
+        "precio":4500, 
+        "stock":10, 
+        "categoria":"servicio"
+    }
+]
